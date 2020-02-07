@@ -8,7 +8,7 @@ Servo myservo;
 int pos = 0;    
 int i =0;
 const int buttonPin = 5;
-int buttonState = 0;
+int buttonState = 1;
 
 
 void setup() {
