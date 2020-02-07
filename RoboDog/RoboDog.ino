@@ -8,7 +8,7 @@ Servo myservo;
 int pos = 0;    
 int i =0;
 const int buttonPin = 5;
-int buttonState = 0;
+int buttonState = 1;
 
 
 void setup() {
@@ -20,7 +20,7 @@ void setup() {
 
 void loop() {
   buttonState = digitalRead(buttonPin);
-  if (buttonState == HIGH) {
+  if (buttonState == LOW) {
     //Serial.print(buttonState);
      
     Serial.print(i);
