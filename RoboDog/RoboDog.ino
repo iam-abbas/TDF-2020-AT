@@ -20,7 +20,7 @@ void setup() {
 
 void loop() {
   buttonState = digitalRead(buttonPin);
-  if (buttonState == LOW) {
+  if (buttonState == HIGH) {
     //Serial.print(buttonState);
      
     Serial.print(i);
